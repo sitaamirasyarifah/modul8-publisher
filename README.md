@@ -16,3 +16,16 @@ The URL "amqp://guest:guest@localhost:5672" is typically used to connect to a me
 
 **Running RabbitMQ as message broker.**
 ![rabbitmq](https://github.com/sitaamirasyarifah/modul8-publisher/assets/122429830/7ab6e490-e323-4b76-aef0-620775669054)
+
+**Sending and processing event.**
+![Screenshot (460)](https://github.com/sitaamirasyarifah/modul8-publisher/assets/122429830/3b09f4af-cb65-41b4-8257-462d15a08d17)
+
+
+**Publisher Console**
+![publisher](https://github.com/sitaamirasyarifah/modul8-publisher/assets/122429830/eb57a427-7959-4db2-8f50-904e4a26c534)
+
+**Subscriber Console**
+![subscriber](https://github.com/sitaamirasyarifah/modul8-publisher/assets/122429830/41d8a1c0-cd9b-4407-9830-8bc00f2081b7)
+
+The images above show that after the publisher application is executed, it will send hardcoded data within the code to the message queue. Subscribers connected to the message queue will receive data from the message queue and print it on the console according to the code that has been created.
+
