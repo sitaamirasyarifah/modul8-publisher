@@ -15,4 +15,4 @@ In the publisher program that has been created, the `main` function initializes 
 The URL "amqp://guest:guest@localhost:5672" is typically used to connect to a message broker using AMQP. If the URL used in both the publisher and subscriber programs is the same, it means that both programs are connected to the same instance of the message broker running on the same machine, using the same authentication credentials and port number as well. This is done to ensure that the publisher can publish messages to the same instance of the message broker where the subscriber is subscribed.
 
 **Running RabbitMQ as message broker.**
-![rabbitmq.png]
+![rabbitmq](https://github.com/sitaamirasyarifah/modul8-publisher/assets/122429830/7ab6e490-e323-4b76-aef0-620775669054)
