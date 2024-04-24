@@ -29,3 +29,7 @@ The URL "amqp://guest:guest@localhost:5672" is typically used to connect to a me
 
 The images above show that after the publisher application is executed, it will send hardcoded data within the code to the message queue. Subscribers connected to the message queue will receive data from the message queue and print it on the console according to the code that has been created.
 
+**Monitoring chart based on publisher.**
+![Screenshot (458)](https://github.com/sitaamirasyarifah/modul8-publisher/assets/122429830/e370e9f2-c591-4e67-a93a-a353f09c0eed)
+
+The image above was obtained after performing the third cargo run compared to the initial one. The graph illustrates an increase in message rate at certain time intervals. This increase is associated with the execution of cargo run on the publisher. It can be observed that each time the publisher is implemented, there is an increase in message throughput on RabbitMQ, which serves as the message queue.
